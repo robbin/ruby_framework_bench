@@ -1,0 +1,19 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+
+# gem 'rack-fiber_pool',  :require => 'rack/fiber_pool'
+gem 'grape', :git => 'git://github.com/intridea/grape.git'
+gem 'goliath', :git => 'git://github.com/postrank-labs/goliath.git'
+
+gem 'activerecord', '~> 3.2', :require => 'active_record'
+gem 'mysql2'
+gem 'oj'
+gem 'redis'
+gem 'hiredis'
+gem 'em-synchrony', :require => ['em-synchrony', 'em-synchrony/mysql2', 'em-synchrony/activerecord']
+gem 'redis-activesupport'
+gem 'pry'
+gem 'second_level_cache', :git => 'git://github.com/csdn-dev/second_level_cache.git'
+
+
