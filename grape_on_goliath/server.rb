@@ -1,4 +1,4 @@
-require File.expand_path("../application", __FILE__)
+require File.expand_path("../boot", __FILE__)
 
 class Application < Goliath::API
   def response(env)

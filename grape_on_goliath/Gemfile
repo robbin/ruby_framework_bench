@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rake'
 
-# gem 'rack-fiber_pool',  :require => 'rack/fiber_pool'
 gem 'grape', :git => 'git://github.com/intridea/grape.git'
 gem 'goliath', :git => 'git://github.com/postrank-labs/goliath.git'
 
@@ -15,5 +14,3 @@ gem 'em-synchrony', :require => ['em-synchrony', 'em-synchrony/mysql2', 'em-sync
 gem 'redis-activesupport'
 gem 'pry'
 gem 'second_level_cache', :git => 'git://github.com/csdn-dev/second_level_cache.git'
-
-
