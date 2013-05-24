@@ -1,0 +1,77 @@
+GIT
+  remote: git://github.com/csdn-dev/second_level_cache.git
+  revision: f6185488ebf1bf5d1e7e18e1448c61bb367f51d2
+  specs:
+    second_level_cache (1.6.2)
+      activesupport (~> 3.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (3.2.13)
+      activesupport (= 3.2.13)
+      builder (~> 3.0.0)
+    activerecord (3.2.13)
+      activemodel (= 3.2.13)
+      activesupport (= 3.2.13)
+      arel (~> 3.0.2)
+      tzinfo (~> 0.3.29)
+    activesupport (3.2.13)
+      i18n (= 0.6.1)
+      multi_json (~> 1.0)
+    arel (3.0.2)
+    builder (3.0.4)
+    coderay (1.0.9)
+    hiredis (0.4.5)
+    i18n (0.6.1)
+    kgio (2.8.0)
+    method_source (0.8.1)
+    multi_json (1.7.3)
+    mysql2 (0.3.11)
+    oj (2.0.13)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rack (1.5.2)
+    rack-protection (1.5.0)
+      rack
+    rainbows (4.5.0)
+      kgio (~> 2.5)
+      rack (~> 1.1)
+      unicorn (~> 4.6, >= 4.6.2)
+    raindrops (0.11.0)
+    rake (10.0.4)
+    redis (3.0.4)
+    redis-activesupport (3.2.3)
+      activesupport (~> 3.2.3)
+      redis-store (~> 1.1.0)
+    redis-store (1.1.3)
+      redis (>= 2.2.0)
+    sinatra (1.4.2)
+      rack (~> 1.5, >= 1.5.2)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    slop (3.4.5)
+    tilt (1.4.1)
+    tzinfo (0.3.37)
+    unicorn (4.6.2)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord (~> 3.2)
+  hiredis
+  mysql2
+  oj
+  pry
+  rainbows
+  rake
+  redis
+  redis-activesupport
+  second_level_cache!
+  sinatra

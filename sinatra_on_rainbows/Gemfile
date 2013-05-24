@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+
+gem 'sinatra'
+gem 'activerecord', '~> 3.2', :require => 'active_record'
+gem 'mysql2'
+gem 'oj'
+gem 'redis'
+gem 'hiredis'
+gem 'redis-activesupport'
+gem 'pry'
+gem 'second_level_cache', :git => 'git://github.com/csdn-dev/second_level_cache.git'
+
+gem 'rainbows'
