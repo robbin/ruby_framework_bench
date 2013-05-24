@@ -9,7 +9,7 @@ class Posts < Grape::API
     end
     
     get "/:id" do 
-      Post.find_by_sql "SELECT SLEEP(0.5)"
+      Post.find_by_sql "SELECT SLEEP(#{ENV['WAIT_TIME'].to_f})"
       Post.find(params['id'])
     end
     

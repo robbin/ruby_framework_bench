@@ -22,18 +22,6 @@ CPU: 20-21%(MacBookPro)  18%(iMac)
 Memory: 75MB  
 Throughput: 64.84 60.54 58.53  
 
-## siege -c64 -r100 http://localhost:9000/v1/posts/1
-
-#### Grape on Goliath
-CPU: 24-26%(MacBookPro) 18-20%(iMac)  
-Memory: 70MB  
-Throughput: 63.78 60.83 60.70  
-
-#### Grape on Rainbows
-CPU: 24-26%(MacBookPro)  22-24%(iMac)  
-Memory: 75MB  
-Throughput: 64.84 60.54 58.53  
-
 ## siege -c100 -r100 http://localhost:9000/v1/posts/1
 
 #### Grape on Goliath
